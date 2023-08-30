@@ -1,0 +1,24 @@
+.secondaryList {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.secondaryItem {
+  border-radius: 5px;
+  padding: 5px;
+  opacity: 0.5;
+  transition: all 150ms;
+}
+
+.secondaryItem:hover,
+.secondaryItem:focus {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.svg {
+  width: 25px;
+  height: 25px;
+}

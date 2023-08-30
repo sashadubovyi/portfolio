@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  background: linear-gradient(
+    109.6deg,
+    rgb(36, 45, 57) 11.2%,
+    rgb(16, 37, 60) 51.2%,
+    rgb(0, 0, 0) 98.6%
+  );
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.myPhoto {
+  width: 220px;
+}
+
+.headerList {
+  padding: 0;
+}
+
+.headerItem {
+  display: flex;
+  height: 60px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 40px;
+  gap: 20px;
+  border-bottom: 1px solid #797979;
+  opacity: 0.5;
+  transition: all 150ms;
+}
+
+.headerItem:hover,
+.headerItem:focus {
+  opacity: 1;
+}
+
+.headerItem:hover .svg,
+.headerItem:focus .svg,
+.headerItem:hover .navText,
+.headerItem:focus .navText {
+  opacity: 1;
+}
+
+.svg {
+  width: 25px;
+  height: 25px;
+}
+
+.navText {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 200;
+  text-transform: uppercase;
+}

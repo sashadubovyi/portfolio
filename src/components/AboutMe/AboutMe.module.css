@@ -1,0 +1,95 @@
+.main {
+  margin-left: 220px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.topText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #797979;
+}
+
+.mainText {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 200;
+}
+
+.svg {
+  height: 60px;
+  width: 60px;
+}
+
+.aboutMeBox {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 65%;
+}
+
+.subTittle {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.aboutMeText {
+  color: #fff;
+  font-size: 20px;
+  line-height: 220%;
+  opacity: 0.8;
+}
+
+.personalInfo {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.personalList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.personalItem {
+  display: flex;
+  gap: 10px;
+  color: #fff;
+}
+
+.personalText {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.downloadResumeBtn {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+}
+
+.btnSvg {
+  width: 50px;
+  height: 50px;
+}

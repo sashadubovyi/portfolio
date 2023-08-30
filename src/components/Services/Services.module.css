@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  width: 95%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+
+.mainText {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 200;
+}
+
+.servicesList {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicesItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  gap: 10px;
+}
