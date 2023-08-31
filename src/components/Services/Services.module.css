@@ -12,7 +12,6 @@
 
 .mainText {
   font-size: 50px;
-  color: #fff;
   font-weight: 200;
 }
 
@@ -26,6 +25,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #fff;
   gap: 10px;
+  border-radius: 15px;
+  border-top: 2px solid #797979;
+  border-bottom: 2px solid #797979;
+  padding: 10px 5px;
 }

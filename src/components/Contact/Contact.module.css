@@ -1,0 +1,49 @@
+.main {
+  margin-left: 220px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.topText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #797979;
+}
+
+.mainText {
+  font-size: 50px;
+  font-weight: 200;
+}
+
+.svg {
+  height: 60px;
+  width: 60px;
+}
+
+.resumeBox {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactItem {
+  display: flex;
+  gap: 50px;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

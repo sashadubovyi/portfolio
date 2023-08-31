@@ -1,0 +1,45 @@
+.resumeContent {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.subTitle {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.workList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.workItem {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.workSubTittle {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.workDate {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.workText {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.spanText::before {
+  content: '\2022';
+  margin-right: 10px;
+  color: #fff;
+}

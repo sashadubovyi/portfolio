@@ -47,7 +47,7 @@ const AboutMe = () => {
                 <p>30 y.o.</p>
               </li>
               <li className={s.personalItem}>
-                <p className={s.personalText}>Residance:</p>
+                <p className={s.personalText}>Residence:</p>
                 <p>Ukraine, Kyiv</p>
               </li>
               <li className={s.personalItem}>

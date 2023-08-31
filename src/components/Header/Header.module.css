@@ -4,7 +4,7 @@
   justify-content: space-between;
   padding-bottom: 50px;
   width: 220px;
-  height: 100vh;
+  min-height: 100vh;
   position: fixed;
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
